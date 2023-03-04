@@ -5,6 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:padding="20dp"
     android:gravity="top"
     tools:context=".MainActivity">
 
@@ -39,6 +40,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="비밀번호" />
 
 
@@ -51,6 +53,7 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
         android:text="닉네임" />
 
 
@@ -61,11 +64,7 @@
         android:singleLine="true"
         android:imeOptions="actionGo"/>
 
-    <CheckBox
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:checked="true"
-        android:text="이용약관에 동의함"/>
+
 
     <RadioGroup
         android:layout_width="wrap_content"
@@ -88,7 +87,11 @@
             android:text="공개 안 함"/>
     </RadioGroup>
 
-
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:text="이용약관에 동의함"/>
 
     <Button
         android:layout_width="match_parent"
